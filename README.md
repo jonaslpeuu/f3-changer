@@ -17,6 +17,8 @@ By default, Minecraft uses the F3 key to toggle the debug overlay. This mod lets
 
 ## 📦 Installation
 
+OR DOWNLOAD MODRINTH!
+
 1. Install [Fabric Loader](https://fabricmc.net/use/)
 2. Download [Fabric API](https://modrinth.com/mod/fabric-api)
 3. Download the latest release from the [Releases](https://github.com/jonaslpeuu/f3-changer/releases) page
