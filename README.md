@@ -1,5 +1,7 @@
 # F3 Debug Menu Changer
 
+[![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/f3-changer)
+
 A lightweight Minecraft Fabric mod that allows you to customize the F3 debug menu keybinding.
 
 ## 📋 Description
