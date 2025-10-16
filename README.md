@@ -35,7 +35,7 @@ OR DOWNLOAD MODRINTH!
 
 ## 🔧 Compatibility
 
-- **Minecraft Version:** 1.21.9
+- **Minecraft Version:** 1.21.8
 - **Mod Loader:** Fabric
 - **Dependencies:** Fabric API
 

@@ -1,4 +1,4 @@
 {
   "key.debug_changer.open_debug_menu": "Open Debug Menu (F3)",
-  "key.category.debug_changer.debug": "Debug Menu"
+  "key.category.debug_changer": "! Debug Menu"
 }
