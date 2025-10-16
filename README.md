@@ -33,7 +33,7 @@ By default, Minecraft uses the F3 key to toggle the debug overlay. This mod lets
 
 ## 🔧 Compatibility
 
-- **Minecraft Version:** 1.21.9
+- **Minecraft Version:** 1.21.8
 - **Mod Loader:** Fabric
 - **Dependencies:** Fabric API
 
