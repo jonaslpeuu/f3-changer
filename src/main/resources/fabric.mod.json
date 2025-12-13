@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "debug_changer",
+  "version": "${version}",
+  "name": "Debug Changer",
+  "description": "Allows changing the F3 debug menu keybinding in the controls menu",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/debug_changer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "de.whitoutcookies.debug_changer.client.Debug_changerDataGenerator"
+    ],
+    "client": [
+      "de.whitoutcookies.debug_changer.client.Debug_changerClient"
+    ],
+    "main": [
+      "de.whitoutcookies.debug_changer.Debug_changer"
+    ]
+  },
+  "mixins": [
+    "debug_changer.mixins.json",
+    {
+      "config": "debug_changer.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
