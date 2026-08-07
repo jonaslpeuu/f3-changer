@@ -4,9 +4,8 @@
   "package": "de.whitoutcookies.debug_changer.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "KeyboardMixin",
-    "InputUtilMixin",
-    "accessor.KeyInputAccessor"
+    "KeyboardHandlerMixin",
+    "InputConstantsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

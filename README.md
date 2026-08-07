@@ -35,8 +35,9 @@ OR DOWNLOAD MODRINTH!
 
 ## 🔧 Compatibility
 
-- **Minecraft Version:** 1.21.11
-- **Mod Loader:** Fabric
+- **Minecraft Version:** 26.1, 26.1.1, 26.1.2, 26.2
+- **Mod Loader:** Fabric (Loader 0.19.3+)
+- **Java:** 25+
 - **Dependencies:** Fabric API
 
 ## 📝 License
