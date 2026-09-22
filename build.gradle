@@ -21,9 +21,9 @@ loom {
     }
 }
 
-// Minecraft 26.2 moved the current screen behind Minecraft.gui.screen(),
-// so the compat sources differ between 26.1.x and 26.2.
-def screenCompatDir = project.minecraft_version == "26.2" ? "src/client/compat/26_2" : "src/client/compat/26_1"
+// Minecraft 26.2+ moved the current screen behind Minecraft.gui.screen(),
+// so the compat sources differ between 26.1.x and 26.2+.
+def screenCompatDir = ["26.2", "26.3"].contains(project.minecraft_version) ? "src/client/compat/26_2" : "src/client/compat/26_1"
 sourceSets.client.java.srcDir(screenCompatDir)
 
 repositories {
